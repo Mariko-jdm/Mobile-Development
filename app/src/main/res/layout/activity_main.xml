@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/tvCitation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="30dp"
+
+        android:text="@string/citation"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+<!--        <ImageButton-->
+<!--            android:id="@+id/btnHome"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="?attr/selectableItemBackgroundBorderless"-->
+<!--            android:contentDescription="@string/btnHome_description"-->
+<!--            android:src="@drawable/home_btn"-->
+<!--            android:layout_weight="1"/>-->
+
+        <ImageButton
+            android:id="@+id/btnNotes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/btnNotes_description"
+            android:src="@drawable/edit_btn"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:id="@+id/btnFavorites"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/btnFavorites_description"
+            android:src="@drawable/favorite_btn" />
+
+        <ImageButton
+            android:id="@+id/btnAddNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/btnAddNote_description"
+            android:src="@drawable/add_btn"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/btnCalendar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/btnCalendar_description"
+            android:src="@drawable/calendar_btn"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:id="@+id/btnUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/btnUser_description"
+            android:src="@drawable/user_btn"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</RelativeLayout>
+

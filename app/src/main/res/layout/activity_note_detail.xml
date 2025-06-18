@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NoteDetailActivity"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/btnBack_description"
+            android:src="@drawable/back_btn"
+            android:scaleType="centerInside"/>
+
+        <EditText
+            android:id="@+id/etTitle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginEnd="30dp"
+            android:inputType="text"
+            android:autofillHints="none"
+            android:hint="@string/etHeadline"
+            style="@style/EditTextStyle"/>
+
+    </LinearLayout>
+
+        <EditText
+            android:id="@+id/etMainText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/header"
+            android:layout_above="@+id/footer"
+            android:layout_margin="10dp"
+
+            android:inputType="textMultiLine"
+            android:importantForAutofill="no"
+            android:hint="@string/etMainText"
+            style="@style/EditTextStyle"
+            android:gravity="start|top" />
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp">
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/default_date"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save"
+            android:layout_marginStart="16dp"
+            android:layout_weight="1"
+            style="@style/ButtonStyle"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

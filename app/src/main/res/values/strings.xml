@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Dayflow</string>
+
+    <string name="citation">Нельзя держать под контролем всё сразу.</string>
+
+    <string name="btnFavorites_description">Избранное</string>
+    <string name="btnNotes_description">Записи</string>
+    <string name="btnAddNote_description">Добавить запись</string>
+    <string name="btnCalendar_description">Календарь</string>
+    <string name="btnUser_description">Пользователь</string>
+    <string name="btnBack_description">Назад</string>
+    <string name="btnSearch_description">Поиск</string>
+    <string name="btnHeart_description">Избранное</string>
+    <string name="ivUserAvatar_description">Аватар</string>
+
+
+    <string name="tvNotes">Записи</string>
+    <string name="tvFavorites">Избранное</string>
+    <string name="tvCalendar">Календарь</string>
+    <string name="lorem">Lorem ipsum dolor sit amet.</string>
+
+    <string name="etUserName">Введите ваше имя</string>
+    <string name="etUserInfo">О себе</string>
+
+    <string name="tvLogin">Вход</string>
+    <string name="tvRegister">Регистрация</string>
+    <string name="etUserEmail">Введите ваш email</string>
+    <string name="etPassword">Введите ваш пароль</string>
+    <string name="btnRegister">Зарегистрироваться</string>
+    <string name="btnLogin">Войти</string>
+    <string name="linkRegister">Нет аккаунта? Зарегистрироваться</string>
+
+    <string name="etHeadline">Заголовок</string>
+    <string name="etMainText">Пиши все, что думаешь.</string>
+
+    <string name="save">Сохранить</string>
+    <string name="default_date">01.01.2001</string>
+
+
+</resources>
